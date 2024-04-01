@@ -1,0 +1,20 @@
+{
+    "name": "hyhy/common",
+    "description": "Hyhy package common",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hiep Tran",
+            "email": "hieptt95@gmail.com"
+        }
+    ],
+    "require": {
+        "prettus/l5-repository": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hyhy\\Common\\": "src"
+        }
+    }
+}
